@@ -62,7 +62,7 @@
   }
 
   .controls{
-    margin-block-start: 35px;
+    margin-block: 35px 70px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -77,6 +77,12 @@
     transition: transform ease .5s, box-shadow ease .5s;
     background-color: #0b43dc;
     color: white;
+    text-transform: uppercase;
+  }
+
+  .range{
+    transform: rotate(90deg);
+    
   }
 
   .btn:hover {
