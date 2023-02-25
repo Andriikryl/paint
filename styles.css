@@ -24,12 +24,19 @@
   #root, #__next {
     isolation: isolate;
   }
-
+  
   body{
     background-color: #aea2f0;
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  
+  .container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
   }
 
   .canvas {
@@ -93,12 +100,13 @@
   .controls__btns{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 40px;
   }
 
   .controls__colors{
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
   }
 
   .controls__color:nth-child(1){

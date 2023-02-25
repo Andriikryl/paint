@@ -8,20 +8,20 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-    <canvas id="jsCanvas" class="canvas"></canvas>
-
-    <div class="controls">
+    <div class="container">
         <div class="controls__btns">
-            <button class="mode__btn | btn" id="jsMode">Mode</button>
+            <button class="mode__btn | btn" id="jsMode">pouring</button>
             <button class="save__btn | btn" id="jsSave">Save</button>
         </div>
+
+        <canvas id="jsCanvas" class="canvas"></canvas>
 
         <div class="controls rang">
             <input type="range" id="jsRange" class="range" min="0.1" max="5.0" value="2.5" step="0.1">
         </div>
+    </div>
 
-
+    <div class="controls">
         <div class="controls__colors" id="jsColors">
             <div class="controls__color jsColor " style="background-color: black;"></div>
             <div class="controls__color jsColor" style="background-color: white;"></div>
