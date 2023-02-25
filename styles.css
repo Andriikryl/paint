@@ -63,6 +63,31 @@
 
   .controls{
     margin-block-start: 35px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .btn{
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 10px 15px 0px #fed040;
+    transition: transform ease .5s, box-shadow ease .5s;
+    background-color: #0b43dc;
+    color: white;
+  }
+
+  .btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 20px 25px 2px #0b43dc;
+  }
+
+  .controls__btns{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
   }
 
   .controls__colors{
